@@ -45,3 +45,7 @@ arrowf.addEventListener('click',()=>{
     }
 })
 
+var preload = document.querySelector(".loading");
+function myLoad(){
+    preload.style.display = 'none';
+}
