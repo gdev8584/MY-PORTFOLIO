@@ -4,6 +4,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+.loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url("./assert/ld.gif") no-repeat center;
+    z-index: 9999;
+}
 
 html {
     font-size: 10px;
@@ -70,9 +77,10 @@ body {
 #hero {
     height: 100vh;
     width: 100%;
-    background-image: url(./assert/back_gdddd.jpg);
-    background-size: cover;
-    background-position: center;
+    background: url(./assert/School-Anime-Boy-Transparent-Background.png);
+    background-size: 680px;
+    background-position: 800px;
+    background-position-y: 50px;
     background-repeat: no-repeat;
     z-index: 1;
 }
@@ -87,6 +95,14 @@ body {
     opacity: 0.1;
     z-index: -1;
 }
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
 span {
     color: rgb(69, 240, 7);
 }
@@ -139,7 +155,7 @@ h4 {
 #about {
     width: 100%;
     padding: 100px 0px;
-    background-color: #101010;
+    /* background-color: #101010; */
     background-size: auto;
     display: flex;
     align-items: center;
@@ -214,7 +230,7 @@ h4 {
 #contact-me {
     width: 100%;
     height: 100vh;
-    background: #000;
+    /* background: #000; */
     display: flex;
     padding: 20px;
     align-items: center;
@@ -303,7 +319,7 @@ textarea::after{
     transform: scale(1.1);
 }
 #service {
-    background-color: #000;
+    /* background-color: #000; */
     background-size: cover;
     width: 100%;
     height: auto;
@@ -537,7 +553,7 @@ footer {
     #about {
         width: 100%;
         padding: 100px 0px;
-        background-color: #101010;
+        background: #1010100a;
         background-size: auto;
         display: block;
         align-items: center;
@@ -545,7 +561,7 @@ footer {
     }
 
     .box {
-          display: inline-block;  
+        display: inline-block;  
         /* justify-content: center;
         align-items: center; */
         position: relative;
@@ -554,7 +570,7 @@ footer {
         min-height:400px;
     }
     #service {
-        background-color: #000;
+        background-color: rgba(0, 0, 0, 0.07);
         background-size: cover;
         width: 100%;
         height: auto;
