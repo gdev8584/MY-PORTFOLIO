@@ -13,3 +13,7 @@
 ### https://github.com/gdev8584/javascript-project/tree/word-highlighter (word-highlighter)
 
 ### https://github.com/gdev8584/javascript-project/tree/infinite-scroll (infinite scroll)
+
+## New Project Beat
+### https://github.com/gdev8584/javascript-project/tree/music-generator
+#### https://dev-musicbeat.netlify.app/
