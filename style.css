@@ -29,7 +29,7 @@ body {
     height: auto;
     background-color: transparent;
     overflow: auto;
-    position: fixed;
+    position: relative;
     z-index: 1;
   }
   .mobile-nav-icon {
